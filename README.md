@@ -35,8 +35,19 @@ Dementia Search / Silver Alert  (research) project, Search and Rescue GPS system
 4. 查看轨迹的 web / 小程序 / android / IOS ....等, 部分提供简单示范(注: 仅提供接口示范代码)
 4. 相关文档公开 
 
+## 2 欢迎参与
 
-## 2 当前进展
+本项目是一个初期研究状态, 欢迎以下人员参与:
+
+1. 硬件工程师 --->  gps 定位器的设计, 优化, 元件选择, 电气测试及 PCB 板设计.....
+2. 嵌入式工程师---> gps 定位器的 zephyr 开发, 测试
+3. 后台开发及前端开发--->  服务器后台开发及测试, 接口维护, 相关前端开发, 包括 web 界面, 小程序, android APP, IOS App......  注: 其中, android / IOS app 可自行考虑提供有偿服务(将来有可能情况下)
+4. 有需要人士----> 申请试用, 提供需求与反馈
+5. 所有关注的朋友们----> 你们都是 CEO / CTO / PM .....欢迎给我们提建议, 欢迎交流
+
+联络我 [x](https://x.com/tsingson)  / [mail](mailto:tsingson@gmail.com)
+
+## 3 当前进展
 
 2026/07/08 进展:
 
