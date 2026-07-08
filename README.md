@@ -24,7 +24,7 @@ Dementia Search / Silver Alert  (research) project, Search and Rescue GPS system
 
 1. 一个长续航的微型 gps 定位器, 防水, 方便老人携带, 尤其是隐藏式携带.
 一般来说, 续航要在 5天左右为好, 实际工作时间 1小时足够.
-2. 一个公网上的服务器端, 年租费用在 500 RMB 以内即可, 用来与 gps 定位器交互, 同时, 提供 web / 小程序 .....等安全查询 gps 轨迹
+2. 一个公网上的服务器端, 用来与 gps 定位器交互, 同时, 提供 web / 小程序 .....等安全查询 gps 轨迹
 3. 一些充电设备...等辅助器材, 及相关指南, 包括定制, 部署, 充电与使用等等
 
 对于想参与本项目的相关人员:
@@ -47,7 +47,30 @@ Dementia Search / Silver Alert  (research) project, Search and Rescue GPS system
 
 联络我 [x](https://x.com/tsingson)  / [mail](mailto:tsingson@gmail.com)
 
-## 3 当前进展
+## 3 一期目标(预研阶段)
+
+主要是前期研究, prototype 试验与验证, 方向讨论/试验, 为 MVP 作准备
+
+亲身试验 apple airTag 在一线城市( iPhone 设备非常多的主要商区/社区)的出色表现, 本项目暂时不考虑一线城市. 
+
+二三线小城市, 小县城有 4G 网络是主要考虑.
+
+4G 网络不好, 部分飞控寻回也是考虑范围.
+
+考虑三个关键节点:
+
+1. 定位 ---->  主要是 gps 卫星定位,  4G 网络基站三角定位, 蓝牙 UWB 近身定位.....
+目前只考虑 gps 定位/ 陀螺仪
+2. 上报 ----> 某个方式连接网络上报, 服务器端形成轨迹. 
+目前只考虑 4G 物联网上报.
+3. 寻回 ----> 就是查看轨迹, 服务器生成 gps 定位点序列, 结合地图, 形成轨迹, 协助寻回.
+
+注: 服务器端只保留最近24小时内的 GPS 定位数据, 强限制只有服务端的建立者的家庭人员可访问, 家庭人员人数上限 30人.
+
+
+
+
+## 4 当前进展
 
 2026/07/08 进展:
 
@@ -63,5 +86,6 @@ Dementia Search / Silver Alert  (research) project, Search and Rescue GPS system
    3. 将来 gps 小型化, 也可能有变化的型号, 所以, 嵌入式代码要有一定灵活性
 
 ## 3 下一步
+
 不定期更新.......
 
